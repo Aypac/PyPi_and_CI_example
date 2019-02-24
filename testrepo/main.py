@@ -11,3 +11,8 @@ def addition(*arg, **args):
     if args:
         s += _sum(args.values())
     return s
+
+def printer(text):
+    print("printing text: ", end='')
+    print(text)
+
