@@ -1,8 +1,19 @@
 language: python
 python:
+<<<<<<< HEAD
  - "2.7"
 # command to install dependencies
 install:
  - pip install -e .
 script:
 - py.test
+=======
+  - "2.7"
+  - "3.6"
+  - "3.7"
+# command to install dependencies
+install:
+  - pip install -e .
+script:
+ - py.test
+>>>>>>> dfcb3e1c95b5dd657926ec1737f3acceb9baab36
